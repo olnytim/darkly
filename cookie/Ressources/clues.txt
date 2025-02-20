@@ -1,0 +1,6 @@
+open inspect mode and go to 'application' tab, there you can find cookies for this website. there is one cookie `i_am_admin` with strang value 68934a3e9455fa72420237eb05902327 that you can decrypt using https://crackstation.net/ and get `false`. after that i think that i have to know the encrypted value of `true` word and use it somehow
+
+i used https://www.md5hashgenerator.com/ to encrypt 'true' word.
+`true` encrypted by md5 is `b326b5062b2f0e69046810717534cb09`
+
+i put this value to the cookie value field and reload page. after that there was an alert with flag.

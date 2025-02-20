@@ -1,0 +1,5 @@
+<img src="1" onload="alert('2')"/>
+
+xss - cross site scripting
+stored
+reflected

