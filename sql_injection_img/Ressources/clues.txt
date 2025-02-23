@@ -10,7 +10,7 @@ after that you will be able to add union-query to know all allowed tables in db:
 ```
 
 after that you will see the all tables of db.
-i found list_images and it's columns url, comment.
+i found list_images and it's columns: url, comment.
 now i just need to use correct query:
 
 ```

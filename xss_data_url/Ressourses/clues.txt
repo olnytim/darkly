@@ -12,7 +12,7 @@ now we can put there script and use text/html MIME to show alert:
 
 <script>alert("hello there");</script>
 
-but there are no '<' and '>' to encode them with '%' sign, therefore we have to make this string base64:
+but there are no '<' and '>' to encode them with '%' sign (links to doc about data urls https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Schemes/data), therefore we have to make this string base64:
 
 PHNjcmlwdD5hbGVydCgiaGVsbG8gdGhlcmUiKTs8L3NjcmlwdD4=
 
