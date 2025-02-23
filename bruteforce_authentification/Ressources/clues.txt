@@ -1,0 +1,1 @@
+After browsing through the website i found a login page. I decided to use a bruteforce attack tool named Hydra, and used it, by assuming that a valid username could be admin and having a dictionary of commonly used passwords to run. 

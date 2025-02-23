@@ -1,0 +1,1 @@
+As commonly known, every nginx sever stores a configuration file named "/etc/password". If we try to go to that page, the website returns a prompt saying "wtf", regardless of the path, so i decided to check every page until i see a different result by using the js script in this directory.

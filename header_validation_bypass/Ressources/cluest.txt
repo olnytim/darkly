@@ -1,0 +1,1 @@
+The footer of the main page redirects us to a new section.When inspecting the source code of the website, i noticed couple comments in the code say specific things that hint that we should come from a specific website by using a specific browser, so i did that in a short curl command

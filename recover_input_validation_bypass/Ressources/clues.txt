@@ -1,0 +1,2 @@
+On the recovery page, while inspecting the source code, we encounter two input fields, if we change the value of the first input field to anything, we get the next flag
+

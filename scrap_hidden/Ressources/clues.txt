@@ -1,0 +1,1 @@
+By using the Dirb utility i found a .hidden directory, and tried to access it, and there was a bunch of nested directories with a readme file in the end. Apparently, one of the flags is inside of one of those directories. In order to not have to do that manually, i wrote a script, that will do it for me.
